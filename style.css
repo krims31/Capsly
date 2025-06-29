@@ -567,8 +567,8 @@ body {
 	text-transform: lowercase;
 	color: var(--promo-tekst);
 	image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
 }
 
 .number-one span {
@@ -712,7 +712,6 @@ body {
 }
 
 .number-four p {
-	
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 1;
@@ -891,7 +890,7 @@ body {
 	line-height: 100%;
 	text-align: center;
 	position: relative;
-	top: -1980px;
+	top: -2080px;
 	left: 580px;
 	color: var(--promo-tekst);
 }
@@ -1239,95 +1238,470 @@ body {
 	}
 }
 
+/* Медиазапрос для 1440x1080 (4:3) */
 @media (max-width: 1440px) and (max-height: 1080px) {
-  :root {
-    --section-padding: clamp(1rem, 3vw, 2.5rem);
-    --block-padding: clamp(0.5rem, 2vw, 1.5rem);
-    --element-margin: clamp(0.25rem, 1.5vw, 1rem);
-    --border-radius: clamp(12px, 2vw, 36px);
-  }
+	:root {
+		--element-margin: clamp(0.1rem, 0.6vw, 0.8rem);
+	}
 
-  /* Логотип и заголовки */
-  .logo {
-    font-size: 48px;
-    margin-left: 30px;
-  }
+	body {
+		overflow-x: hidden;
 
-  /* Главный контейнер */
-  .blue-img {
-    min-height: 400px;
-  }
+		transform-origin: top;
+	}
 
-  /* Блоки с контентом */
-  .border-one,
-  .border-two,
-  .border-three,
-  .border-four {
-    width: 70%;
-    left: 50%;
-    transform: translateX(-80%);
-  }
+	.logo {
+		font-size: 56px;
+		margin-left: -50px;
+	}
 
-  .border-one {
-    height: 350px;
-    top: 25%;
-  }
+	.blue-img {
+		min-height: 500px;
+	}
 
-  /* Текст */
-  .name {
-    font-size: 2rem;
-    margin-left: 0;
-  }
+	.border-one {
+		width: 700px;
+		transform: translate(-60%, -50%) scale(0.9);
+	}
 
-  .name p {
-    font-size: 24px;
-  }
+	.border-two {
+		width: 450px;
+		transform: translate(-50%, -55%) scale(0.9);
+	}
 
-  /* Кнопки */
-  .btn-capsly {
-    width: 160px;
-    height: 60px;
-  }
+	.border-three {
+		width: 350px;
+		height: 430px;
+		transform: translate(0%, -50%) scale(0.9);
+	}
 
-  /* Описания */
-  .opisanie p {
-    font-size: 24px;
-    margin: 20px auto;
-    max-width: 80%;
-  }
+	.border-four {
+		width: 700px;
+		height: 900px;
+		transform: translate(-58%, -53%) scale(0.9);
+	}
 
-  /* Окна Windows/Mac */
-  .windows-btn,
-  .MacOs {
-    width: 70%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+	.centre-smile {
+		transform: translate(-480%, -100%) scale(0.9);
+	}
 
-  /* Карточки */
-  .card-one,
-  .card-two,
-  .card-three,
-  .card-four {
-    width: 70%;
-    margin: 20px auto;
-  }
+	.right-smile {
+		transform: translate(-120%, -63%) scale(0.9);
+	}
 
-  /* Изображения */
-  .iphone-img,
-  .laptop-img {
-    width: 70%;
-    margin: 0 auto;
-  }
+	.name {
+		font-size: 2.2rem;
+		margin: 45px;
+	}
 
-  /* Футер */
-  .footer-blue-img {
-    height: auto;
-    padding: 40px 0;
-  }
+	.windows-btn {
+		width: 624px;
+		height: 112px;
+	}
 
-  .footer-windows,
-  .footer-MacOs {
-    width: 200px;
-  }
+	.MacOs {
+		width: 624px;
+		height: 112px;
+	}
+
+	.about-us img {
+		transform: translate(-70%, 220%) scale(0.9);
+	}
+
+	.about-us p {
+		transform: translate(-215%, 10%) scale(0.9);
+	}
+
+	.card-one {
+		transform: translate(-50%, 50%) scale(0.9);
+	}
+
+	.card-two {
+		transform: translate(-30%, 120%) scale(0.9);
+	}
+
+	.card-three {
+		transform: translate(-50%, 80%) scale(0.9);
+	}
+
+	.card-four {
+		transform: translate(-40%, 30%) scale(0.9);
+	}
+
+	.iphone-and-laptop-blue-img {
+		width: 2370px;
+		transform: translate(-17.5%, 10%);
+	}
+
+	.iphone-img {
+		width: 382px;
+		height: 713px;
+		transform: translate(-70%, 20%) scale(0.9);
+	}
+
+	.laptop-img {
+		width: 500px;
+		height: 700px;
+		transform: translate(-354%, -322%) scale(0.9);
+	}
+
+	.function-capsly {
+		font-size: 96px;
+		transform: translate(-20%, 200%) scale(0.9);
+	}
+
+	.number-one {
+		width: 308px;
+		height: 3005px;
+		transform: translate(-350%, 50%);
+	}
+
+	.number-one svg {
+		width: 93px;
+		height: 273px;
+		transform: translate(-40%, -30%);
+	}
+
+	.number-one h1 {
+		transform: translate(-30%, -150%);
+	}
+
+	.number-one p {
+		width: 100px;
+		transform: translate(-40%, -80%);
+	}
+
+	.number-two {
+		width: 308px;
+		height: 3005px;
+		transform: translate(-30%, 3%);
+	}
+
+	.number-two svg {
+		width: 183px;
+		height: 273px;
+		transform: translate(-40%, -273%);
+	}
+
+	.number-two h1 {
+		transform: translate(30%, -150%);
+	}
+
+	.number-two p {
+		width: 100px;
+		transform: translate(-10%, -100%);
+	}
+
+	.number-three {
+		width: 308px;
+		height: 3005px;
+		transform: translate(230%, -235%);
+	}
+
+	.number-three svg {
+		width: 183px;
+		height: 273px;
+		transform: translate(-260%, 10%);
+	}
+
+	.number-three h1 {
+		transform: translate(0%, -170%);
+	}
+
+	.number-three h1 span {
+		transform: translate(10%, 0%);
+	}
+
+	.number-three p {
+		width: 100px;
+		transform: translate(30%, -100%);
+	}
+
+	.number-four {
+		width: 308px;
+		height: 3005px;
+		transform: translate(350%, -337%);
+	}
+
+	.number-four svg {
+		width: 183px;
+		height: 273px;
+		transform: translate(-270%, 10%);
+	}
+
+	.number-four h1 {
+		transform: translate(0%, -320%);
+	}
+
+	.number-four h1 span {
+		transform: translate(10%, 0%);
+	}
+
+	.number-four p {
+		width: 100px;
+		transform: translate(30%, -130%);
+	}
+
+	.number-one,
+	.number-two,
+	.number-three,
+	.number-four {
+		height: 2500px; /* Было 3005px */
+	}
+
+	.o-capsly-blue-img {
+		width: 100%;
+		transform: translate(-50%, -100%);
+	}
+
+	.about-us-two img {
+		transform: translate(-10%, -2000%);
+	}
+
+	.lorem-card-one {
+		min-width: 550px;
+		min-height: 600px;
+		transform: translate(-30%, -380%);
+	}
+
+	.lorem-card-one img {
+		transform: translate(10%, 0%);
+	}
+
+	.lorem-img {
+		transform: translate(0%, -30%);
+	}
+
+	.lorem-card-one h2 {
+		transform: translate(0%, -50%);
+	}
+
+	.lorem-card-two {
+		min-width: 550px;
+		min-height: 600px;
+		transform: translate(75%, -483%);
+	}
+
+	.lorem-card-two img {
+		transform: translate(10%, 0%);
+	}
+
+	.lorem-img-2 {
+		transform: translate(0%, -25%);
+	}
+
+	.lorem-card-two h2 {
+		transform: translate(0%, -50%);
+	}
+
+	.lorem-card-three {
+		min-width: 550px;
+		min-height: 600px;
+		transform: translate(180%, -585%);
+	}
+
+	.lorem-card-three img {
+		transform: translate(10%, 0%);
+	}
+
+	.lorem-img-3 {
+		transform: translate(0%, -25%);
+	}
+
+	.lorem-card-three h2 {
+		transform: translate(0%, -50%);
+	}
+
+	.ui-kit {
+		transform: translate(10%, -400%);
+	}
+
+	.cyrge-medium {
+		transform: translate(10%, -600%);
+	}
+
+	.promo1 img {
+		transform: translate(5%, -30%);
+	}
+
+	.promo1 svg {
+		transform: translate(30%, -10%);
+	}
+
+	.promo2 {
+		transform: translate(-2%, -28%);
+	}
+
+	.colone-one {
+		transform: translate(0%, 0%);
+	}
+
+	.footer-blue-img {
+		transform: translate(-4%, 900%);
+	}
+}
+
+/* Медиазапрос для 1194x834 (iPad Pro 11" landscape) */
+@media (max-width: 1194px) and (max-height: 834px) {
+	:root {
+		--border-radius: clamp(12px, 2vw, 32px);
+	}
+
+	.logo {
+		font-size: 48px;
+	}
+
+	.border-one {
+		width: 600px;
+		height: 380px;
+		top: 25%;
+	}
+
+	.name {
+		font-size: 1.8rem;
+	}
+
+	.windows-btn {
+		width: 500px;
+	}
+
+	.card-one {
+		margin: -500px auto 0;
+		transform: translateX(-30%);
+	}
+
+	.iphone-img {
+		width: 60%;
+		margin-left: -600px;
+	}
+}
+
+/* Медиазапрос для 834x1194 (iPad Pro 11" portrait) */
+@media (max-width: 834px) and (max-height: 1194px) {
+	:root {
+		--section-padding: clamp(0.8rem, 2.5vw, 1.5rem);
+	}
+
+	.logo {
+		font-size: 42px;
+		margin-left: 20px;
+	}
+
+	.border-one {
+		width: 500px;
+		height: 320px;
+	}
+
+	.name {
+		font-size: 1.6rem;
+	}
+
+	.windows-btn,
+	.MacOs {
+		width: 450px;
+		height: 80px;
+	}
+
+	.card-one {
+		margin: -400px auto 0;
+	}
+
+	.iphone-img {
+		width: 55%;
+		margin-left: -500px;
+	}
+}
+
+/* Медиазапрос для 375x812 (iPhone X/XS/11 Pro) */
+@media (max-width: 375px) and (max-height: 812px) {
+	:root {
+		--border-radius: clamp(8px, 3vw, 24px);
+	}
+
+	.logo {
+		font-size: 32px;
+		margin-left: 10px;
+	}
+
+	.blue-img {
+		min-height: 300px;
+	}
+
+	.border-one {
+		width: 320px;
+		height: 220px;
+		top: 20%;
+	}
+
+	.name {
+		font-size: 1.4rem;
+		margin: 1rem auto;
+	}
+
+	.windows-btn,
+	.MacOs {
+		width: 300px;
+		height: 60px;
+	}
+
+	.windows-btn p,
+	.MacOs p {
+		font-size: 24px;
+	}
+
+	.card-one,
+	.card-four {
+		width: 300px;
+		margin: -250px auto 0;
+	}
+
+	.iphone-img {
+		width: 90%;
+		margin-left: -180px;
+	}
+
+	.footer-blue-img {
+		height: 300px;
+	}
+
+	.footer-windows,
+	.footer-MacOs {
+		width: 180px;
+		height: 50px;
+	}
+}
+
+/* Общие адаптивные стили для всех разрешений */
+@media (max-width: 1440px) {
+	.number-one,
+	.number-two,
+	.number-three,
+	.number-four {
+		width: 300px;
+		height: 550px;
+		margin: 1rem auto;
+	}
+
+	.lorem-card-one,
+	.lorem-card-two,
+	.lorem-card-three {
+		width: 400px;
+		height: 550px;
+		margin: 1rem auto;
+	}
+
+	.footer-tg svg,
+	.footer-vk svg,
+	.footer-inst svg {
+		transform: translate(0, 0);
+		position: relative;
+		margin: 0 10px;
+	}
+}
+
+/* Оптимизация анимаций для мобильных устройств */
+@media (max-width: 834px) {
+	.animate-on-scroll {
+		animation-duration: 0.8s !important;
+	}
 }
