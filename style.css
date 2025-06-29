@@ -1809,6 +1809,7 @@ body {
 
 	.iphone-and-laptop-blue-img {
 		margin: 700px;
+		left: 150px;
 	}
 
 	.iphone-img {
@@ -1956,26 +1957,26 @@ body {
 
 	.o-capsly-blue-img {
 		margin: 500px;
-		margin-left: 100px;
+		margin-left: 250px;
 	}
 
 	.about-us-two img {
 		margin: -1400px;
-		margin-left: 550px;
+		margin-left: 600px;
 	}
 
 	.lorem-card-one {
 		width: 304px;
 		height: 585px;
-		transform: translate(-50%, -450%);
+		transform: translate(-40%, -450%);
 	}
 
 	.lorem-card-two {
-		transform: translate(58%, -552%);
+		transform: translate(65%, -552%);
 	}
 
 	.lorem-card-three {
-		transform: translate(165%, -655%);
+		transform: translate(170%, -655%);
 	}
 
 	.ui-kit img {
@@ -1993,8 +1994,8 @@ body {
 		position: absolute;
 		bottom: 0;
 		left: 0;
-		width: 1293px;
-		transform: translate(-10%, 1500%);
+		width: 1493px;
+		transform: translate(-8%, 1500%);
 		z-index: 1;
 	}
 
