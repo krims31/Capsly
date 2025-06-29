@@ -559,8 +559,7 @@ body {
 	color: var(--promo-tekst-zagolovok);
 }
 
-.number-one img {
-	font-family: 'Involve', sans-serif;
+.number-one p {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 1;
@@ -605,7 +604,6 @@ body {
 }
 
 .number-two p {
-	font-family: 'Involve', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 1;
@@ -660,7 +658,6 @@ body {
 }
 
 .number-three p {
-	font-family: 'Involve', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 1;
@@ -715,7 +712,7 @@ body {
 }
 
 .number-four p {
-	font-family: 'Involve', sans-serif;
+	
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 1;
