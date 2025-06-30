@@ -601,8 +601,26 @@ body {
 	margin-left: 5px;
 }
 
+.number-two {
+	border-radius: 48px;
+	border: 2px solid white;
+	background: var(--promo-bloki);
+	width: 382px;
+	height: 707px;
+	margin: -790px;
+	margin-left: 430px;
+	z-index: 1;
+	transition: all 0.3s ease;
+	animation: fadeIn 2s;
+}
+
+.number-two:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 .number-two svg {
-	transform: translate(-30%, -210%);
+	transform: translate(-210%, 30%);
 	margin-left: 550px;
 }
 
@@ -611,8 +629,8 @@ body {
 	font-weight: 500;
 	font-size: 32px;
 	line-height: 100%;
-	margin-top: -626px;
-	margin-left: 480px;
+	margin-top: 136px;
+	margin-left: 80px;
 	color: var(--promo-tekst-zagolovok);
 }
 
@@ -622,7 +640,7 @@ body {
 	font-size: 32px;
 	line-height: 100%;
 	margin-top: 0px;
-	margin-left: 0px;
+	margin-left: -190px;
 	color: var(--promo-tekst-zagolovok);
 }
 
@@ -631,7 +649,7 @@ body {
 	font-size: 20px;
 	line-height: 1;
 	margin-top: 9px;
-	margin-left: 485px;
+	margin-left: 45px;
 	text-transform: lowercase;
 	color: var(--promo-tekst);
 }
@@ -649,9 +667,9 @@ body {
 	background: var(--promo-bloki);
 	width: 382px;
 	height: 707px;
-	margin: -800px;
-	margin-left: 790px;
-	z-index: 2;
+	margin: 73px;
+	margin-left: 850px;
+	z-index: 1;
 	transition: all 0.3s ease;
 	animation: fadeIn 2s;
 }
@@ -708,8 +726,8 @@ body {
 	background: var(--promo-bloki);
 	width: 382px;
 	height: 707px;
-	margin: 90px;
-	transform: translate(300%, 0%);
+	margin: -390px;
+	transform: translate(430%, -55%);
 	margin-right: 0;
 	z-index: 2;
 	transition: all 0.3s ease;
