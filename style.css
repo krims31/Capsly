@@ -796,10 +796,6 @@ body {
 	animation: fadeIn 2s;
 }
 
-.lorem-card-one:hover {
-	transform: perspective(500px) rotateX(5deg);
-}
-
 .lorem-card-one img {
 	font-family: 'Cygre Light', sans-serif;
 	font-weight: 300;
