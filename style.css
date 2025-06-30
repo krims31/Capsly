@@ -1078,7 +1078,12 @@ body {
 	left: 0;
 	z-index: 2;
 	cursor: pointer;
+	transition: 0.3s ease-in;
 	transform: translate(620%, 10280%);
+}
+
+.footer-inst svg:hover {
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .contacts h1 {
@@ -2044,33 +2049,369 @@ body {
 		--section-padding: clamp(0.8rem, 2.5vw, 1.5rem);
 	}
 
+	body {
+		overflow-x: hidden;
+	}
+
 	.logo {
 		font-size: 42px;
-		margin-left: 20px;
+		margin-left: 100px;
 	}
 
 	.border-one {
 		width: 500px;
-		height: 320px;
+		height: 400px;
+		min-height: 320px;
+		font-size: 48px;
+		margin: -15px;
+		margin-left: 0px;
 	}
 
-	.name {
-		font-size: 1.6rem;
+	.border-one img {
+		margin: 0px;
+		width: 400px;
+		margin-left: 0px;
 	}
 
-	.windows-btn,
-	.MacOs {
-		width: 450px;
+	.border-one p {
+		font-size: 23px;
+		margin-left: 55px;
+	}
+
+	.border-one p span {
+		font-size: 25px;
+		margin: 5px;
+		margin-left: -145px;
+	}
+
+	.border-two {
+		width: 400px;
+		height: 400px;
+		margin: 70px;
+		margin-left: 60px;
+	}
+
+	.centre-smile {
+		margin: 5px;
+		margin-left: 5px;
+	}
+
+	.right-smile {
+		margin-left: 290px;
+	}
+
+	.border-three {
+		width: 250px;
+		height: 400px;
+		margin: -400px;
+		margin-left: 80px;
+	}
+
+	.border-four {
+		width: 350px;
+		height: 400px;
+		margin: 875px;
+		margin-left: -450px;
+	}
+
+	.btn-capsly {
+		width: 170px;
+		height: 50px;
+		margin: 55px;
+		margin-left: 10px;
+	}
+
+	.btn-capsly img {
+		width: 150px;
+		height: 30px;
+		margin: 10px;
+	}
+
+	.heart {
+		margin: -110px;
+		margin-left: 230px;
+	}
+
+	.opisanie p {
+		font-size: 20px;
+		margin: 95px;
+		margin-left: 30px;
+	}
+
+	.windows-btn {
+		width: 300px;
 		height: 80px;
+		margin: 0px;
+		margin-left: -400px;
+	}
+
+	.windows-img {
+		width: 20px;
+		height: 20px;
+		margin-left: 50px;
+	}
+
+	.MacOs {
+		width: 300px;
+		height: 80px;
+		margin: -100px;
+		margin-left: 380px;
+	}
+
+	.MacOs-img {
+		margin-left: 60px;
+	}
+
+	.about-us {
+		margin: 700px;
+		margin-left: -220px;
+	}
+
+	.about-us p {
+		margin: 400px;
+		font-size: 20px;
+		margin-left: -10px;
+	}
+
+	.about-us p span {
+		font-size: 20px;
+		margin: 0px;
+		margin-left: 0px;
 	}
 
 	.card-one {
-		margin: -400px auto 0;
+		width: 400px;
+		margin: -955px;
+		margin-left: -400px;
+	}
+
+	.card-one p {
+		margin-left: 0px;
+	}
+
+	.card-one p span {
+		margin-left: -110px;
+	}
+
+	.card-two {
+		width: 400px;
+		margin: 680px;
+		margin-left: -200px;
+	}
+
+	.card-two p {
+		margin-left: 330px;
+	}
+
+	.card-two p span {
+		margin-left: 0px;
+	}
+
+	.card-three {
+		width: 400px;
+		margin: -350px;
+		margin-left: -100px;
+	}
+
+	.card-three p {
+		margin-left: -600px;
+	}
+
+	.card-three p span {
+		margin-left: 40px;
+	}
+
+	.card-four {
+		width: 400px;
+		margin: 133px;
+		margin-left: 60px;
+	}
+
+	.card-four p {
+		margin-left: 0px;
+	}
+
+	.card-four p span {
+		margin-left: 70px;
+	}
+
+	.iphone-and-laptop-blue-img img {
+		width: 1500px;
+		height: 2000px;
+		min-width: 500px;
+		min-height: 500px;
+		margin-left: 200px;
+		z-index: 1;
 	}
 
 	.iphone-img {
-		width: 55%;
-		margin-left: -500px;
+		margin: 2800px;
+		margin-left: -200px;
+	}
+
+	.laptop-img img {
+		width: 800px;
+		height: 657px;
+		margin: -100px;
+		margin-left: -1850px;
+	}
+
+	.function-capsly img {
+		margin: 1400px;
+		margin-left: 200px;
+	}
+
+	.number-one {
+		width: 100px;
+		min-width: 300px;
+		min-height: 100px;
+		margin: -1400px;
+		margin-left: -400px;
+	}
+
+	.number-img-one svg {
+		margin-left: -40px;
+	}
+
+	.number-one p {
+		font-size: 20px;
+		margin: 0px;
+		margin-left: -50px;
+	}
+
+	.number-two {
+		width: 100px;
+		min-width: 300px;
+		min-height: 100px;
+		margin: -30px;
+		margin-left: -110px;
+	}
+
+	.number-two p {
+		font-size: 20px;
+		margin: 0px;
+		margin-left: 480px;
+	}
+
+	.number-three {
+		width: 100px;
+		min-width: 300px;
+		min-height: -50px;
+		margin: -100px;
+		margin-left: 0px;
+	}
+
+	.number-three svg {
+		margin: 100px;
+		transform: translateX(-50px);
+	}
+
+	.number-three h1 {
+		margin: -70px;
+		margin-left: 50px;
+	}
+
+	.number-three p {
+		font-size: 20px;
+		margin: 100px;
+		margin-left: 20px;
+	}
+
+	.number-four {
+		width: 100px;
+		min-width: 300px;
+		min-height: 100px;
+		margin: -700px;
+		margin-left: -550px;
+	}
+
+	.number-four p {
+		margin-left: 40px;
+	}
+
+	.o-capsly-blue-img img {
+		width: 1500px;
+		height: 2500px;
+		min-width: 500px;
+		min-height: 500px;
+		z-index: 1;
+		margin: 400px;
+		margin-left: 0px;
+	}
+
+	.about-us-two img {
+		margin: -2600px;
+		margin-left: 150px;
+	}
+
+	.lorem-card-one {
+		min-width: 600px;
+		height: 570px;
+		min-height: 250px;
+		margin: -1740px;
+		margin-left: 200px;
+	}
+
+	.lorem-card-one img {
+		margin: 45px;
+		margin-left: 60px;
+	}
+
+	.lorem-img img {
+		width: 100px;
+		min-width: 150px;
+		margin: 0px;
+		margin-left: 350px;
+	}
+
+	.lorem-card-one h2 {
+		margin: -80px;
+		margin-left: 530px;
+	}
+
+	.lorem-card-two {
+		min-width: 600px;
+		height: 570px;
+		min-height: 50px;
+		margin: 2430px;
+		margin-left: -430px;
+	}
+
+	.lorem-card-two img {
+		margin: 45px;
+		margin-left: 50px;
+	}
+
+	.lorem-img-2 img {
+		width: 100px;
+		min-width: 150px;
+		margin: 0px;
+		margin-left: 330px;
+	}
+
+	.lorem-card-two h2 {
+		margin: -85px;
+		margin-left: 500px;
+	}
+	
+	.lorem-card-three {
+		min-width: 600px;
+		height: 570px;
+		min-height: 50px;
+		margin: -1730px;
+		margin-left: -1050px;
+	}
+
+	.lorem-card-three img {
+		margin: 50px;
+	}
+
+	.lorem-img-3 img {
+
+	}
+
+	.lorem-card-three h2 {
+
 	}
 }
 
@@ -2130,40 +2471,5 @@ body {
 	.footer-MacOs {
 		width: 180px;
 		height: 50px;
-	}
-}
-
-/* Общие адаптивные стили для всех разрешений */
-@media (max-width: 1440px) {
-	.number-one,
-	.number-two,
-	.number-three,
-	.number-four {
-		width: 300px;
-		height: 550px;
-		margin: 1rem auto;
-	}
-
-	.lorem-card-one,
-	.lorem-card-two,
-	.lorem-card-three {
-		width: 400px;
-		height: 550px;
-		margin: 1rem auto;
-	}
-
-	.footer-tg svg,
-	.footer-vk svg,
-	.footer-inst svg {
-		transform: translate(0, 0);
-		position: relative;
-		margin: 0 10px;
-	}
-}
-
-/* Оптимизация анимаций для мобильных устройств */
-@media (max-width: 834px) {
-	.animate-on-scroll {
-		animation-duration: 0.8s !important;
 	}
 }
