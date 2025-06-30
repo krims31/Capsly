@@ -45,7 +45,6 @@ body {
 	font-size: 64px;
 	margin-left: 50px;
 	line-height: 1.2;
-	color: var(--promo-dop);
 	text-align: center;
 	margin: var(--element-margin);
 }
@@ -198,8 +197,8 @@ body {
 }
 
 .btn-capsly:active {
-	background-color: var(--promo-dop);
 	transform: scale(0.95);
+	background: linear-gradient(90deg, #ff7b00, #ff0058);
 	transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
@@ -214,8 +213,8 @@ body {
 }
 
 .btn-capsly:hover {
-	background-color: black;
-	color: var(--hover-text);
+	transform: translateY(2px);
+	box-shadow: 0 2px 0 #3700b3, 0 3px 4px rgba(0, 0, 0, 0.15);
 }
 
 .heart {
@@ -268,6 +267,7 @@ body {
 	width: 653px;
 	height: 102px;
 	z-index: 2;
+	cursor: pointer;
 	transition: 0.3s ease-in-out;
 	animation: fadeIn 2s;
 }
@@ -279,6 +279,11 @@ body {
 	margin: 30px;
 	text-align: center;
 	color: var(--promo-tekst);
+}
+
+.windows-btn:hover {
+	background: linear-gradient(45deg, #2575fc 0%, #6a11cb 100%);
+	box-shadow: 0 5px 15px rgba(37, 117, 252, 0.4);
 }
 
 .windows-img {
@@ -351,7 +356,13 @@ body {
 	margin: -650px;
 	margin-left: -300px;
 	z-index: 2;
+	transition: all 0.3s ease;
 	animation: scaleIn 2s 1s;
+}
+
+.card-one:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card-one h1 {
@@ -453,7 +464,13 @@ body {
 	margin: -245px;
 	margin-left: 250px;
 	z-index: 2;
+	transition: all 0.3s ease;
 	animation: scaleIn 2s 1s;
+}
+
+.card-four:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card-four h1 {
@@ -541,7 +558,13 @@ body {
 	margin: 100px;
 	margin-left: -900px;
 	z-index: 2;
+	transition: all 0.3s ease;
 	animation: fadeIn 2s;
+}
+
+.number-one:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .number-img-one {
@@ -629,7 +652,13 @@ body {
 	margin: -800px;
 	margin-left: 790px;
 	z-index: 2;
+	transition: all 0.3s ease;
 	animation: fadeIn 2s;
+}
+
+.number-three:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .number-three svg {
@@ -683,7 +712,12 @@ body {
 	transform: translate(300%, 0%);
 	margin-right: 0;
 	z-index: 2;
+	transition: all 0.3s ease;
 	animation: fadeIn 2s;
+}
+
+.number-four:hover {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .number-four svg {
@@ -758,7 +792,12 @@ body {
 	transform: translate(-30%, -135%);
 	margin-right: 0;
 	z-index: 2;
+	transition: all 0.3s ease;
 	animation: fadeIn 2s;
+}
+
+.lorem-card-one:hover {
+	transform: perspective(500px) rotateX(5deg);
 }
 
 .lorem-card-one img {
@@ -1060,7 +1099,7 @@ body {
 	z-index: 2;
 	transform: translate(340%, 10280%);
 	cursor: pointer;
-	transition: transform 0.5s ease-in-out;
+	transition: all 0.3s ease;
 }
 
 .footer-vk svg {
@@ -1150,9 +1189,14 @@ body {
 	height: 65px;
 	z-index: 2;
 	animation: fadeIn 2s;
-	transition: transform 0.5s ease-in-out;
+	transition: all 0.3s ease;
 	cursor: pointer;
 	animation: fadeIn 2s;
+}
+
+.footer-windows:hover {
+	box-shadow: 0 0 15px rgba(0, 194, 255, 0.7);
+  filter: brightness(1.1);
 }
 
 .footer-windows p {
@@ -1182,7 +1226,13 @@ body {
 	height: 65px;
 	z-index: 2;
 	cursor: pointer;
+	transition: all 0.3s ease;
 	animation: fadeIn 2s;
+}
+
+.footer-MacOs:hover {
+	box-shadow: 0 0 15px rgba(0, 194, 255, 0.7);
+  filter: brightness(1.1);
 }
 
 .footer-MacOs p {
@@ -2411,7 +2461,7 @@ body {
 		margin: -85px;
 		margin-left: 500px;
 	}
-	
+
 	.lorem-card-three {
 		min-width: 600px;
 		height: 570px;
@@ -2455,10 +2505,10 @@ body {
 	}
 
 	.cyrge-zagalovok img {
-    width: 150px; 
-    height: 20px;
+		width: 150px;
+		height: 20px;
 		margin-left: 20px;
-}
+	}
 
 	.Aa img {
 		min-width: 100px;
@@ -2482,8 +2532,8 @@ body {
 	}
 
 	.cyrge-text img {
-		width: 130px; 
-    height: 30px;
+		width: 130px;
+		height: 30px;
 		margin-left: 20px;
 		margin: 15px;
 	}
@@ -2574,7 +2624,7 @@ body {
 
 	.contacts p {
 		transform: translate(145%, -50%);
-	} 
+	}
 
 	.product h1 {
 		transform: translate(550%, -450%);
@@ -2658,37 +2708,36 @@ body {
 	}
 }
 
-
 @media (max-width: 1440px) {
-  .number-one,
-  .number-two,
-  .number-three,
-  .number-four {
-    width: 300px;
-    height: 550px;
-    margin: 1rem auto;
-  }
+	.number-one,
+	.number-two,
+	.number-three,
+	.number-four {
+		width: 300px;
+		height: 550px;
+		margin: 1rem auto;
+	}
 
-  .lorem-card-one,
-  .lorem-card-two,
-  .lorem-card-three {
-    width: 400px;
-    height: 550px;
-    margin: 1rem auto;
-  }
+	.lorem-card-one,
+	.lorem-card-two,
+	.lorem-card-three {
+		width: 400px;
+		height: 550px;
+		margin: 1rem auto;
+	}
 
-  .footer-tg svg,
-  .footer-vk svg,
-  .footer-inst svg {
-    transform: translate(0, 0);
-    position: relative;
-    margin: 0 10px;
-  }
+	.footer-tg svg,
+	.footer-vk svg,
+	.footer-inst svg {
+		transform: translate(0, 0);
+		position: relative;
+		margin: 0 10px;
+	}
 }
 
 /* Оптимизация анимаций для мобильных устройств */
 @media (max-width: 834px) {
-  .animate-on-scroll {
-    animation-duration: 0.8s !important;
-  }
+	.animate-on-scroll {
+		animation-duration: 0.8s !important;
+	}
 }
