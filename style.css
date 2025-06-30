@@ -2473,3 +2473,38 @@ body {
 		height: 50px;
 	}
 }
+
+
+@media (max-width: 1440px) {
+  .number-one,
+  .number-two,
+  .number-three,
+  .number-four {
+    width: 300px;
+    height: 550px;
+    margin: 1rem auto;
+  }
+
+  .lorem-card-one,
+  .lorem-card-two,
+  .lorem-card-three {
+    width: 400px;
+    height: 550px;
+    margin: 1rem auto;
+  }
+
+  .footer-tg svg,
+  .footer-vk svg,
+  .footer-inst svg {
+    transform: translate(0, 0);
+    position: relative;
+    margin: 0 10px;
+  }
+}
+
+/* Оптимизация анимаций для мобильных устройств */
+@media (max-width: 834px) {
+  .animate-on-scroll {
+    animation-duration: 0.8s !important;
+  }
+}
